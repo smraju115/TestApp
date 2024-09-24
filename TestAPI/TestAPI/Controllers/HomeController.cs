@@ -7,5 +7,10 @@ namespace TestAPI.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult GetInfo()
+        {
+            return Ok("Sucess!");
+        }
     }
 }
