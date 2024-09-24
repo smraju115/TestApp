@@ -12,5 +12,11 @@ namespace TestAPI.Controllers
         {
             return Ok("Sucess!");
         }
+
+        [HttpGet]
+        public IActionResult GetDetails()
+        {
+            return Ok("Sucess!");
+        }
     }
 }
